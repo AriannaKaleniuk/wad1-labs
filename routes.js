@@ -16,6 +16,8 @@ router.get('/dashboard', dashboard.createView);
 router.get('/about', about.createView);
 router.get('/playlist/:id', playlist.createView);
 router.get('/stats', stats.createView);
+router.get('/searchCategory', dashboard.createView);
+router.get('/sortData', dashboard.createView);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found.'));
 router.post('/playlist/:id/addsong', playlist.addSong);
