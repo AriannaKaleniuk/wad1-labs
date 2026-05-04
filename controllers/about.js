@@ -2,17 +2,26 @@
 
 import logger from "../utils/logger.js";
 import { getAppInfo } from "../models/stevie-store.js";
+import accounts from './accounts.js';
+
 
 const about = {
   createView(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);
     logger.info("About page loading!");
-    const employee = getAppInfo();
-    const viewData = {
-      title: "About the Playlist App",
-      employees: employee
-    };
-    response.render("about", viewData);
-  },
+    
+    if (loggedInUser) {
+      const viewData = {
+        title: 'About the Playlist App',
+        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        picture: loggedInUser.picture, 
+        employees: getAppInfo(),
+      };
+      response.render('about', viewData);
+    }
+    else response.redirect('/');    
+},
+
 };
 
 export default about;

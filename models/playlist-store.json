@@ -1,84 +1,67 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "c856d215-8ab3-4e2b-a707-33ced040b6a8",
-          "title": "gfd",
-          "artist": "gfd"
-        },
-        {
-          "id": "5a749d7b-05b8-46c6-9069-e50dc0992d7b",
-          "title": "авпетьр",
-          "artist": "вкеонь"
-        }
-      ]
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 5,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "e93f4b34-140a-4a25-b8ae-36e2ff24aff5",
+      "title": "Homer's Playlist",
       "rating": 4,
-      "songs": []
+      "songs": [],
+      "date": "2026-04-10T14:39:25.112Z"
     },
     {
-      "id": "f5f0882f-a3a1-48b1-927b-917b6498da21",
-      "title": "Beethoven",
-      "date": "2026-03-13T09:43:53.574Z",
-      "rating": 2,
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "f9de08c1-5567-4ad7-a685-fbce474fa9d4",
+      "title": "Marge's Playlist",
+      "rating": 3,
+      "songs": [],
+      "date": "2026-04-10T14:40:09.467Z"
+    },
+    {
+      "id": "4a51672f-02d2-4bde-ab08-c17ad21b153a",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "New Playlist",
+      "rating": 3,
+      "songs": [],
+      "date": "2026-04-16T20:58:13.413Z",
+      "picture": {
+        "url": "https://res.cloudinary.com/dsvgwmt7o/image/upload/v1777890427/samples/landscapes/girl-urban-view.jpg",
+        "public_id": "yfoypncwlmg5nrqvowuz"
+      }
+    },
+    {
+      "id": "31100999-8139-4757-86f5-766bc1d8ddf4",
+      "userid": "94c8ece7-f416-48e6-92b0-ff55a51e0c9f",
+      "title": "qqq",
+      "rating": 4,
       "songs": [
         {
-          "id": "ff0ceb83-e1d1-4e19-9c1c-bb2bcc50a06b",
-          "title": "ыпверап",
-          "artist": "ыкепанр"
+          "id": "aa3117ff-e24c-43f7-927a-73fbb44b4f9f",
+          "title": "rjjj",
+          "artist": "jjj"
+        },
+        {
+          "id": "548b507d-817e-4685-99e6-e41a86ed4e01",
+          "title": "jiho",
+          "artist": "bi"
         }
-      ]
+      ],
+      "date": "2026-05-04T11:24:35.867Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/dsvgwmt7o/image/upload/v1777893877/dfh0qlmbw2eclz8uxtxk.jpg",
+        "public_id": "dfh0qlmbw2eclz8uxtxk"
+      }
     },
     {
-      "id": "86371482-8135-42ef-b20c-5fc2c0462270",
-      "title": "кверо",
-      "rating": 3,
-      "date": "2026-04-15T14:37:41.717Z",
-      "songs": []
+      "id": "8db9546f-3646-4632-9d2a-98524dca355a",
+      "userid": "94c8ece7-f416-48e6-92b0-ff55a51e0c9f",
+      "title": "tt",
+      "rating": 2,
+      "songs": [],
+      "date": "2026-05-04T11:25:04.319Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/dsvgwmt7o/image/upload/v1777893905/hkswo9cfq2bgdxjx5csd.jpg",
+        "public_id": "hkswo9cfq2bgdxjx5csd"
+      }
     }
   ]
 }
